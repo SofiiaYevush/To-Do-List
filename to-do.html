@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" type="text/css" href="/styles/to-do.css">
+  <link rel="icon" type="image/x-icon" href="img/to-do-list-icon.png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">TO DO LIST</h1>
+        <div class="task-list-field">
+            <div class="task-list-container" id="taskList">
+                <h2 class="container-title">Your list of tasks</h2>
+                <div class="add-task">
+                  <input type="text" autocomplete="off" placeholder="Add new task" id="taskInput" class="input-task">
+                  <input type="submit" value="" class="submit-task" id="addTaskBtn" title="Додати завдання">
+                </div>
+                <ul class="task-list" id="taskListItems">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="/to-do.js"></script>
+</body>
+</html>

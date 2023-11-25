@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+
+    --to-do-list-container: #D6EAF8;
+    --checkbox-color: #D6EAF8;
+    --checkbox-shadow: #D6EAF8;
+    --span-checked: #D6EAF8;
+    --add-button: #191933;
+    --add-button-shadow: #D6EAF8;
+    --main-color-dark-blue: #191933;
+}
+
+/* img {
+    display: block;
+    width: 100%;
+  } */
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
